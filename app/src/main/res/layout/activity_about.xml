@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakjudul_about"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/kotak_kembali"
+        />
+
+    <ImageView
+        android:id="@+id/ic_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/icon_kembali" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kotak_kembali"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo_fc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:text="FC atau Food Court merupakan aplikasi mobile yang berguna untuk kalangan semua orang dalam membeli jajanan makanan maupun minuman secara online. Aplikasi Food Court ini berdiri pada tanggal 16 Desember 2022 yang dibuat oleh 2 mahasiswa bernama Khairi dan Aryakun."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-70dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:padding="20dp"
+        android:gravity="center"
+        android:id="@+id/txt_about"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_about"
+        android:text="Aplikasi ini tentunya untuk mempermudah konsumen dalam memesan makanan tanpa rela mengantri berjam-jam."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:padding="20dp"
+        android:gravity="center"
+        android:id="@+id/txt_about2"
+        />
+
+    <ImageView
+        android:id="@+id/imganimasi"
+        android:layout_width="373dp"
+        android:layout_height="381dp"
+        android:layout_below="@+id/txt_about2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-56dp"
+        android:layout_marginTop="-225dp"
+        android:layout_marginBottom="-1dp"
+        android:src="@drawable/img_animasi" />
+
+</RelativeLayout>

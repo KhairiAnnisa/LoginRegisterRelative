@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotakjudul_profile"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/kotak_kembali"
+        />
+
+    <ImageView
+        android:id="@+id/ic_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/icon_kembali" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile"
+        android:layout_marginTop="68dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mas Puja Arya"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="185dp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sosial Media"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="false" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wa"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="+6282170400552"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="277dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gmail"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="maspuj21@gmail.com"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="317dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="false" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/notification"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Notifikasi"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="397dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bahasa"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Bahasa"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="437dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/privasi"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Privasi dan Keamanan"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="477dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantuan"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="false" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pertanyaan"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kirim Pertanyaan"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="557dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:layout_marginTop="597dp"
+        android:layout_marginLeft="55dp"
+        android:fontFamily="@font/poppinsregular" />
+</RelativeLayout>
